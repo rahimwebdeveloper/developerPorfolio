@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 
 }
 
@@ -10,6 +11,7 @@ body {
     font-weight: 700;
     background-color: #FD6E0A;
     font-size: 20px;
+    height: 64px;
     border: none;
     padding: 15px 30px;
     border-radius: 5px;
@@ -31,7 +33,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 50px 200px;
+    padding: 40px 200px;
 
 
 }
@@ -49,14 +51,39 @@ body {
 
 .navbar ul {
     display: flex;
-    
     align-items: center;
 
 }
 
-.navbar ul li {
+.navbar li {
     list-style: none;
     padding-left: 50px;
     font-size: 20px;
 }
 /* navbar style */
+
+/* banner style start */
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin:0 200px ;
+    
+}
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 70px;
+    margin: 0;
+}
+.banner-description{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+/* banner style end */
