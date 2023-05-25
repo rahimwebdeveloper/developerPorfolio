@@ -104,9 +104,9 @@ main {
 
 .section-title {
     text-align: center;
-    font-size: 35px;
     font-weight: 700;
-    margin-bottom: 30px;
+    font-size: 35px;
+    margin-bottom: 50px;
 }
 
 .about-area {
@@ -133,8 +133,8 @@ main {
 }
 
 .info-description {
-    font-size: 25px;
     font-weight: 600;
+    font-size: 25px;
     margin: 0;
 }
 
@@ -159,7 +159,8 @@ main {
     border-radius: 5px;
 
 }
-.skill-title{
+
+.skill-title {
     font-weight: 700;
     font-size: 20px;
     margin-top: 25px;
@@ -183,4 +184,33 @@ main {
 .resume-area {
     display: flex;
     gap: 24px;
+}
+
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.resume-item .title{
+    font-weight: 700;
+    font-size: 24px;
+    color: #474747;
+    margin: 0 0 10px 0 ; 
+}
+
+.resume-item .sub-title{
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color:#757575 ;
+}
+
+.resume-item p{
+    color: #757575;
+}
+
+.resume-btn{
+    text-align: center;
+    margin-top: 50px;
 }
