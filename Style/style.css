@@ -76,13 +76,13 @@ body {
 
 .banner-sub-title {
     font-weight: 600;
-    font-size: 45px;
+    font-size: 35px;
     margin-bottom: 20px;
 }
 
 .banner-title {
     font-weight: 700;
-    font-size: 70px;
+    font-size: 50px;
     margin: 0;
 }
 
@@ -128,12 +128,13 @@ main {
 }
 
 .about-decription {
-    margin-bottom: 20px;
+    text-align: justify;
+    margin-bottom: 100px;
 
 }
 
 .info-description {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 25px;
     margin: 0;
 }
@@ -144,6 +145,11 @@ main {
 
 .work-container {
     margin: 200px 130px;
+
+}
+
+.what{
+    text-decoration: underline;
 
 }
 
